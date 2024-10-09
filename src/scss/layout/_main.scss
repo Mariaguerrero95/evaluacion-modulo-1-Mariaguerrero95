@@ -118,6 +118,7 @@ main section p{
     border-radius:100px;
     background-color:$background-color-boton; 
 }
+
 .card{
     display:grid;
     grid-template-columns: 1fr;
@@ -134,6 +135,20 @@ main section p{
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 }
+.button3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Empezar-ahora {
+    cursor: pointer; 
+    transition: transform 0.1s ease, background-color 0.1s ease; 
+}
+.Empezar-ahora:active {
+    transform: translateY(4px) scale(0.95); 
+    background-color: #000000; 
+}
+
 @media all and (min-width: 768px) {
     .store-section{
         margin-left:40px;
