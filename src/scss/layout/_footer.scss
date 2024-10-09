@@ -1,0 +1,63 @@
+footer {
+    background-color:$background-footer;
+    font-family:"Roboto", sans-serif;
+    text-align: center;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 0 8.4px 70px 13.4px;
+}
+.footer-arrow {
+    width: 38.5px;
+    height: 38.5px;
+    border-radius:50px;
+    background-color: $color-header;
+    margin-top: -14px;
+    font-size: 2.2rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color:white; 
+}
+.footer-section1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: normal;
+    text-align: center;
+    padding-bottom:40px;
+}
+.footer-section2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: normal;
+    text-align: center;
+    
+}
+.footer-links a {
+    color: $color-header;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+.footer-end {
+    padding-top:2px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom:20px;
+    color:$color-header;
+}
+.heart {
+    color: $background-color-boton;
+}

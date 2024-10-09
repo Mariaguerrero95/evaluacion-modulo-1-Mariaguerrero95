@@ -1,5 +1,6 @@
-// aquí van los imports de los parciales de scss, primero siempre el reset
 @import 'core/reset';
+@import 'core/variables';
 @import 'layout/header';
-@import 'layout/footer';   
-
+@import 'layout/hero';
+@import 'layout/main';
+@import 'layout/footer';
