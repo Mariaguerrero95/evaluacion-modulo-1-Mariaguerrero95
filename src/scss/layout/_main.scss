@@ -1,0 +1,193 @@
+main{
+    background-color: $color-header;
+}
+main section h2{
+    color: $color-suptitle;
+    padding-left:12px;
+    padding-top:30px;
+    padding-bottom:13px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16.3px;
+    font-weight: normal;
+    line-height: 3;
+
+}
+main section h3{
+    color:$color-title-section;
+    padding-left:12px;
+    font-family: "Roboto Slab";
+    font-size: 27px;
+    line-height: 0;
+    padding-bottom: 22px;
+}
+main section p{
+    padding-left:12px;
+    padding-bottom:42px;
+    width: 90%;
+    color:$color-secondary-text;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    line-height: 1.67;
+}
+.shop-button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 450;
+    background-color: $background-section-1;
+    border-radius:22.5px;
+    border: 2px solid;
+    font-size: 20px;
+    color:$background-color-boton;
+    width: 165px; 
+    height: 45px;
+    padding:10px;
+    padding-top:8px;
+    border-color:$background-color-boton;
+}
+.container1{
+    padding-left:12px;
+    padding-bottom:40px;
+}
+.back-to-school{
+    background-color:$background-color-vueltalcole;
+}
+.h4{
+    padding-top:20px;
+    padding-bottom:1px;
+    text-align: center;
+    font-family: "Roboto Slab";
+    color: #4A4A4A;
+}
+.h5{
+    text-align: center;
+    font-family: "Roboto Slab";
+    font-size:24px;
+    padding-bottom:20px;
+}
+.h6{
+    text-align: center;
+    font-family: "Roboto Slab";
+    font-size:15px;
+    padding-bottom:20px;
+}
+.h7{
+    text-align: center;
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size:15px;
+    padding-bottom:20px;
+}
+.h8{
+    text-align: center;
+    font-family:"Roboto Slab";
+    font-size:15px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.button3{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 10px; 
+    padding-bottom: 30px; 
+    padding-right:5px;
+}
+.Empezar-ahora{
+    padding:10px;
+    width:200px;
+    height:60px;
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color:$color-header;
+    font-family:"Roboto", sans-serif;
+    display:flex;
+    font-size:22px;
+    border-radius:100px;
+    background-color:$background-color-boton; 
+}
+.card{
+    display:grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap:10px;
+}
+.card{
+    img{
+        width:122px;
+        height:133px;
+        border-radius: 50%;
+        object-fit: cover; 
+        margin:10px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+}
+@media all and (min-width: 768px) {
+    .bag{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+}
+        .button3{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column:2/3;
+        padding-left:60px;
+}
+        .h4{
+        padding-bottom: 10px;
+}
+        .h5{
+        padding-bottom:35px;
+}
+    .footer-links{
+        display:flex;
+        flex-direction:inline-block;
+        justify-content: end;
+        align-items:center;
+        padding-left:300px;
+}
+    .footer-section1{
+        align-items: flex-start;
+        padding-top:60px;
+}
+    .footer-section2{
+        align-items: flex-start;
+        padding-left:100px;
+}
+}
+
+@media all and (min-width: 1200px) {
+    .bag{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+}
+    .button3{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column:2/3;
+        padding-left:60px;
+}
+    .h4{
+        padding-bottom: 10px;
+}
+    .h5{
+        padding-bottom:35px;
+}
+    .footer-links{
+        display:flex;
+        flex-direction:inline-block;
+        justify-content: end;
+        align-items:center;
+        padding-left:300px;
+}
+    .footer-section1{
+        align-items: flex-start;
+        padding-top:60px;
+}
+    .footer-section2{
+        align-items: flex-start;
+        padding-left:100px;
+}
+}
