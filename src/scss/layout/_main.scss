@@ -10,7 +10,9 @@ main section h2{
     font-size: 16.3px;
     font-weight: normal;
     line-height: 3;
-
+}
+.store-section{
+    margin-left:10px;
 }
 main section h3{
     color:$color-title-section;
@@ -133,6 +135,9 @@ main section p{
 }
 }
 @media all and (min-width: 768px) {
+    .store-section{
+        margin-left:40px;
+    }
     .bag{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -161,6 +166,9 @@ main section p{
 
 }
 @media all and (min-width: 1200px) {
+    .store-section{
+        margin-left:160px;
+    }
     .bag{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
