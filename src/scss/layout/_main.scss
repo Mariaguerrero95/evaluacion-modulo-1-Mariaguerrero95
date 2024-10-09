@@ -42,10 +42,22 @@ main section p{
     padding:10px;
     padding-top:8px;
     border-color:$background-color-boton;
+    cursor: pointer; 
+    position: relative; 
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; 
+}
+.shop-button:hover {
+    transform: scale(1.1) translateY(-3px);  
+    background-color: $background-section-2; 
+}
+.shop-button:active {
+    transform: scale(1.05); 
+    background-color:$background-section-2; 
 }
 .container1{
     padding-left:12px;
     padding-bottom:40px;
+    
 }
 .back-to-school{
     background-color:$background-color-vueltalcole;
