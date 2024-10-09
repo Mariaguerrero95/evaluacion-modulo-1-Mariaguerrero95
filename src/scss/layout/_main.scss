@@ -108,12 +108,10 @@ main section p{
     width:200px;
     height:60px;
     border:none;
-    display: flex;
     justify-content: center;
     align-items: center; 
     color:$color-header;
     font-family:"Roboto", sans-serif;
-    display:flex;
     font-size:22px;
     border-radius:100px;
     background-color:$background-color-boton; 
@@ -142,9 +140,17 @@ main section p{
 }
     .button3{
         display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-column:2/3;
-        padding-left:60px;
+        justify-items: center;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+        
+}
+    .Empezar-ahora{
+        justify-self: center;
+        align-self: center;
 }
     .h4{
         padding-bottom: 10px;
@@ -162,9 +168,17 @@ main section p{
 }
     .button3{
         display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-column:2/3;
-        padding-left:166px;
+        justify-items: center;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+        
+}
+    .Empezar-ahora{
+        justify-self: center;
+        align-self: center;
 }
     .h4{
         padding-bottom: 10px;
