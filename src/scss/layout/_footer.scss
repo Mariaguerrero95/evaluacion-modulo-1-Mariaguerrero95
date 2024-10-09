@@ -10,6 +10,9 @@ footer {
     gap: 40px;
     padding: 0 8.4px 70px 13.4px;
 }
+.footer-werun{
+    display:none;
+}
 .footer-section1{
     display: flex;
     flex-direction: column;
@@ -29,13 +32,7 @@ footer {
     font-family: "Roboto", sans-serif;
     line-height: 1.50;
 }
-.container4{
-    display: flex;
-    flex-direction: column;
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-size: 13px;
-}
+
 .footer-links a {
     color: $color-header;
     text-decoration: none;
@@ -48,7 +45,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    padding-bottom:20px;
+    padding-top:40px;
     color:$color-header;
 }
 .heart {
@@ -66,17 +63,62 @@ footer {
     background-color:white; 
 }
 
-@media all and (min-width: 768px) {
-        .footer {
-            padding-top:40px;
-            flex-direction: row;
-            justify-content: center;
-                .footer-arrow{
-                    margin-top: -200px;
-                    margin-left: 200px;
-            }
-        } 
+@media all and (min-width: 768px){
+    .footer-links{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 150px;
     }
+    .footer-end{
+        display:none;
+    }
+    .footer-werun{
+        line-height: 2;
+        display:block;
+        color:white;
+        padding-top:5px;
+        text-align: justify;
+        
+    }
+    .footer-section1{
+        grid-column: 2/3;
+        text-align: center;
+        text-align: justify;
+    }
+    .footer-section2{
+        grid-column: 3/4;
+        text-align: center;
+        text-align: justify;
+    }
+}
+
 @media all and (min-width: 1200px) {
-    
-    }   
+    .footer-links{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 400px;
+    }
+
+    .footer-end{
+        display:none;
+        
+    }
+    .footer-werun{
+        display:block;
+        color:white;
+        padding-top:5px;
+        text-align: justify;
+    }
+    .footer-section1{
+        grid-column: 2/3;
+        text-align: center;
+        text-align: justify;
+    }
+    .footer-section2{
+        grid-column: 3/4;
+        text-align: center;
+        text-align: justify;
+    }
+}
